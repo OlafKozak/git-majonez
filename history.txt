@@ -1,0 +1,30 @@
+  112  mkdir git-majonez
+  113  cd git-majonez/
+  114  git init
+  115  touch main.cpp
+  116  git status
+  117  git add main.cpp
+  118  git status
+  119  git commit -m"Initial commit"
+  120  git status
+  121  git add main.cpp
+  122  git commit -m"Farawell commit"
+  123  git status
+  124  git remote add origin https://github.com/OlafKozak/git-majonez.git
+  125  git push -u origin master
+  126  man git branch
+  127  git branch cs
+  128  git branch
+  129  git branch cs
+  130  git checkout cs
+  131  git branch
+  132* 
+  133* 
+  134  git reset --hard ^
+  135  git reset --hard HEAD~1
+  136  git add main.cpp
+  137  git commit -m"Greetings"
+  138  git push origin cs
+  139  git checkout master
+  140  git merge cs
+  141  history | tail -n29 > history.txt
